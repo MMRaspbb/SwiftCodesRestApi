@@ -4,14 +4,14 @@ SwiftCodesRestApi uses https://docs.google.com/spreadsheets/d/1iFFqsu_xruvVKzXAa
  - GET: /v1/swift-codes/{swift-code} - returns information about bank with given swift-code
  - GET:  /v1/swift-codes/country/{countryISO2code} - returns information about all banks in country with given countryISO2 code
  - POST:  /v1/swift-codes - adds bank with data from body to the database (body):
-    ```json
+    ```
     {
-    "address": string,
-    "bankName": string,
-    "countryISO2": string,
-    "countryName": string,
-    "isHeadquarter": bool,
-    "swiftCode": string,
+    "address": "address",
+    "bankName": "bank name",
+    "countryISO2": "EX",
+    "countryName": "country name",
+    "isHeadquarter": true,
+    "swiftCode": "01234567XXX"
     }
     ```
 - DELETE:  /v1/swift-codes/{swift-code} - removes bank with given swift-code from the database
