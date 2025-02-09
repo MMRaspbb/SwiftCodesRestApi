@@ -26,4 +26,4 @@ After the building process is completed the application is ready to be used, it'
 localhost:8080
 ```
 ## Stack
-For the aplication i used Java Spring Boot framework, PostgreSQL database and to contenerize it ia have used Docker.
+For the aplication i used Java Spring Boot framework, PostgreSQL database and to contenerize it I used Docker.
